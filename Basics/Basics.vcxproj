@@ -124,7 +124,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Basics.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="PrintUtils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PrintUtils.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
