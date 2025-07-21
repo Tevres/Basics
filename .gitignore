@@ -1,0 +1,24 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.opendb
+*.VC.db*
+*.vscode/
+
+# Build output
+x64/
+*.obj
+*.ilk
+*.pdb
+*.exe
+*.log
+*.tlog
+*.idb
+*.ipch
+*.cache
+*.db
+
+# Sonstiges
+*.DS_Store
+Thumbs.db
