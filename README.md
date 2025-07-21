@@ -1,6 +1,6 @@
 # Basics
 
-A simple C++ project created with Visual Studio.
+A simple C++ project created with Visual Studio for educational purpose.
 
 ## Project structure
 
