@@ -2,13 +2,13 @@
 
 A simple C++ project created with Visual Studio.
 
-## Projektstruktur
+## Project structure
 
 - `Basics/` – Contains source code (`.cpp`) and project files (`.vcxproj`)
 - `.gitignore` – Filters out temporary files
 - `Basics.sln` – Visual Studio solution
 
-## Build-Anleitung
+## Build instructions
 
 1. Open project in Visual Studio (`Basics.sln`)
 2. Compile in `x64` debug mode
