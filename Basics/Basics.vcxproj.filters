@@ -24,12 +24,18 @@
     <ClCompile Include="TreeNode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MySort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PrintUtils.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="TreeNode.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MySort.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -125,10 +125,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MySort.cpp" />
     <ClCompile Include="PrintUtils.cpp" />
     <ClCompile Include="TreeNode.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="MySort.hpp" />
     <ClInclude Include="PrintUtils.hpp" />
     <ClInclude Include="TreeNode.hpp" />
   </ItemGroup>

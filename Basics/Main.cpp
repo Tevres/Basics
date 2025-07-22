@@ -1,7 +1,11 @@
 ﻿#include "PrintUtils.hpp"
 #include "TreeNode.hpp"
+#include "MySort.hpp"
+#include <algorithm>
 
 using namespace std;
+using namespace print_utils;
+using namespace my_sort;
 
 int main() {
     vector<int> one = { 9, 5, 7, 2, 3, 1, 6, 4, 7, 3, 8 };
@@ -16,8 +20,10 @@ int main() {
     root->insert(18);
 
     // test cases
-    print_utils::printVector(one);
-    print_utils::print2DVector(two);
+    printVector(one);
+    sort(one.begin(), one.end());  // standard: Quicksort, Heapsort if recursion depth gets too big, Insertionsort for small vectors
+    printVector(one);
+    print2DVector(two);
     //print_utils::printDirectoryTree(rootPath);
     root->print();
     delete root;
